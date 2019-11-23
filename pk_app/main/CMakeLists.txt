@@ -1,0 +1,12 @@
+idf_component_register(SRCS "hello_world_main.c"
+                    SRCS "pk_serial.c"
+                    SRCS "pk_T3_driver.c"
+                    SRCS "user_lib.c"
+                    SRCS "pk_hal.c"
+                    SRCS "pkDevTime.c"
+                    SRCS "pkDevGPIO.c"
+                    SRCS "product_test.c"
+                    SRCS "queue.c"
+                    SRCS "pkjig_serial.c"
+                    SRCS "pk_app.c"
+                    INCLUDE_DIRS "")
